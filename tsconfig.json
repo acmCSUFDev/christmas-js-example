@@ -3,6 +3,9 @@
     "module": "nodenext",
     "target": "esnext",
     "checkJs": true,
-    "allowJs": true
+    "allowJs": true,
+    "paths": {
+      "#lib/*": ["./src/lib/*"]
+    }
   }
 }
